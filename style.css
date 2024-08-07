@@ -1,0 +1,115 @@
+body {
+    margin: 30px 70px;
+    padding: 10px 40px 50px;
+    border: solid 1px rgb(223, 213, 213);
+    border-radius: 7px;
+    font-family:cursive;
+}
+
+#home, #category, #quiz, #result {
+    text-align: center;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+/* #home.active, #quiz.active, #result.active {
+    display: block;
+} */
+
+/* h2 in present in whole body */
+h2 {
+    color: rgb(255, 115, 0);
+    text-align: center;
+}
+
+/* This code style input in the present home id  */
+#home > input{ 
+    border-radius: 5px;
+    width: 50%;
+    padding: 6px;
+    border: solid rgb(161, 158, 158) 2px;
+}
+
+/* code for all button */
+#next-question,#start-again-btn, #home-btn, #enter{
+    border-radius: 20px;
+    margin: 5% 0;
+    padding: 6px 20px;
+    color: rgb(252, 247, 244);
+    background-color: rgb(255, 94, 0);
+    border: solid rgb(255, 120, 9) 2px;
+}
+
+#enter:hover{
+    color: orangered;
+    background-color: white;
+}
+
+/* category is the parent class that display grid property*/
+#category {
+    justify-content: center;
+    display: grid;
+    grid-gap: 20px 50px;
+    grid-template-columns: 200px 200px;
+}
+
+/* In this Category present items to style grid feature */
+.category-btn {
+    border: solid 3px rgb(250, 149, 17);
+    border-radius: 8px;
+    padding: 10px;
+    color: rgb(58, 55, 55);
+    background-color: rgb(252, 216, 139);
+}
+
+/* parent class of option of categories */
+#buttons {
+    justify-content: center;
+    display: grid;
+    grid-gap: 20px 50px;
+    grid-template-columns: 200px 200px;
+}
+
+/* This is option of question text */
+.option-btn {
+    border-radius: 20px;
+    margin: 2% 5%;
+    padding: 6px 20px;
+    color: rgb(252, 120, 13);
+    border: solid rgb(255, 120, 9) 2px;
+} 
+
+/* Mouse on the option then display below properties of css */
+.option-btn:hover {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
+/* This is css proprties for both timer id and question-number is that change color and all */
+#question-number, #timer  {
+    border: 1px solid orangered;
+    border-radius: 50%;
+    padding: 5px;
+    color: orangered;
+    font-weight: bold;
+}
+
+/* change border color of fieldset */
+fieldset {
+    border: 1px solid orangered;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* This is parent class of time and score that display the grid propety */
+#score_time {
+    justify-content:space-between;
+    display: grid;
+    grid-template-columns: 100px 200px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz application - Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+     <!-- Score and Timer display -->
+    <div id="quiz" class="active">
+        <div id="score_time">
+            <div class="s_t" id="timer">00:00</div>
+            <div class="s_t" id="score">SCORE: 0</div>
+        </div>
+
+         <!-- Question container -->
+        <div id="question-container">
+            <fieldset>
+                <legend><span id="question-number"></span></legend>
+                <p id="question-text"></p>
+            </fieldset>
+             <!-- Option buttons -->
+            <div id="buttons">
+                <button class="option-btn">Option 1</button>
+                <button class="option-btn">Option 2</button>
+                <button class="option-btn">Option 3</button>
+                <button class="option-btn">Option 4</button>
+            </div>
+        </div>
+        <!-- Next question button -->
+        <button id="next-question">Next Question</button>
+    </div>
+
+<!-- Link to the JavaScript file -->
+    <script src="quiz.js"></script>
+    
+</body>
+
+</html>

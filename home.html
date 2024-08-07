@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz application - Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    
+    <section>
+    <!-- This section contains the user details, logo, and enter button -->
+    <div id="home" class="active">
+        <img src="image/logo.jpg" alt="quiz logo" id="logo">
+        <!-- Greeting and instructions for the user -->
+        <h2>Hello user!</h2>
+        <p> <strong>Enter your name to cotinue the Quiz.</strong> </p>
+        <!-- Input field for the user name -->
+        <input type="text" id="name" name="name" placeholder="ENTER YOUR NAME...">
+        <button id="enter">Enter</button>
+        <p>You'll have 10 seconds to answer each questions</p>
+        <hr>
+    </div>
+</section>
+
+<section>
+    <!-- This section contains buttons to select different quiz categories -->
+    <h2>Select Category</h2>
+    <div id="category" class="inactive">
+        <!-- Category buttons -->
+        <button class="category-btn" data-category="Time_and_work">Time and work</button>
+        <button class="category-btn" data-category="Height_and_Distance">Height and Distance</button>
+        <button class="category-btn" data-category="Simple_Interest">Simple Interest</button>
+        <button class="category-btn" data-category="Profit_and_Loss">Profit and Loss</button>
+        <button class="category-btn" data-category="Problems_on_Trains">Problems on Trains</button>
+        <button class="category-btn" data-category="Aligation_or_Mixture">Aligation or Mixture</button>
+    </div>
+</section>
+
+    <!-- Link to the JavaScript file -->
+    <script src="home.js"></script>
+
+</body>
+
+</html>
